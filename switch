@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    char x = 'a' ;
+    cout<<"Enter a character ";
+    cin>>x;
+
+    switch(x)
+    {
+        case 'a':
+        cout<<" it's a";
+        break;
+        
+         case 'b':
+        cout<<" it's b";
+        break;
+         case 'c':
+        cout<<" it's c";
+        break;
+         case 'd':
+        cout<<" it's d";
+        break;
+         case 'e':
+        cout<<" it's e";
+        break;
+        default:
+     return 0;   
+    }
+    
+ }
